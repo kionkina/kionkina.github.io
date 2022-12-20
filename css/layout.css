@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: white; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -30,14 +30,16 @@ body { background: #0f0f0f; }
 
 header {
    position: relative;
-   height: 800px;
-   min-height: 500px;
+   height: 300px;
+   min-height: 300px;
+   max-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: white;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+   padding: 5%;
 }
 
 /* vertically center banner section */
@@ -52,7 +54,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -139,8 +141,9 @@ header .scrolldown a:hover { color: #11ABB0; }
    position: fixed;
    left: 0;
    top: 0;
+   background-color: #396cb680;
 }
-.opaque { background-color: #333; }
+.opaque { background-color: #396cb680; }
 
 /* hide toggle button */
 #nav-wrap > a.mobile-btn { display: none; }
@@ -179,7 +182,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: black; }
 
 
 /* ------------------------------------------------------------------ */
@@ -187,7 +190,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #ebeeee;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -207,10 +210,17 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
-   border-radius: 100%;
+   width: 100%;
+   height: 100%;
+   border-radius: 105%;
 }
+
+.pfp {
+   height: 250x;
+   width: 250px;
+   display: inline-block;
+}
+
 #about .contact-details { width: 41.66667%; }
 #about .download {
    width: 58.33333%;
@@ -427,7 +437,7 @@ ul#nav li.current a { color: #F06000; }
 /* Portfolio Content */
 #portfolio-wrapper .columns { margin-bottom: 36px; }
 .portfolio-item .item-wrap {
-   background: #fff;
+   background: black;
    overflow: hidden;
    position: relative;
 
@@ -546,13 +556,13 @@ ul#nav li.current a { color: #F06000; }
    text-align: left;
 }
 .popup-modal .link-box a {
-   color: #fff;
+   color: rgb(112, 22, 22);
 	font: 11px/21px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
    letter-spacing: 3px;
    cursor: pointer;
 }
-.popup-modal a:hover {	color: #00CCCC; }
+.popup-modal a:hover {	color: ##5e7dad; }
 .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
 
 

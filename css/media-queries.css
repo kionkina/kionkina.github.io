@@ -16,7 +16,7 @@
    header .banner-text h1 {
       font: 80px/1.1em 'opensans-bold', sans-serif;
       letter-spacing: -1px;
-      margin: 0 auto 12px auto;
+      margin: 0 auto 0px auto;
    }
 
 }
@@ -38,7 +38,7 @@
    }
    header .banner-text hr {
       width: 65%;
-      margin: 12px auto;
+      margin: 0px auto;
    }
    /* nav-wrap */
    #nav-wrap {
@@ -49,6 +49,10 @@
 
    /* About Section
    ------------------------------------------------------------------- */
+#about {
+      background-color: #ebeeee;
+}
+
    #about .profile-pic {
       width: 114px;
       height: 114px;
@@ -171,7 +175,6 @@
       margin: 0 auto; 
       padding: 0 4%;           
       text-align: left;
-      border-bottom: 1px solid #2D2E34;
       border-bottom-style: dotted; 
    }
   
@@ -198,7 +201,7 @@
    }
    header .banner-text hr {
       width: 80%;
-      margin: 18px auto;
+      margin: 0px;
    }
 
    /* header social links */
