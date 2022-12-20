@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+
 export default class Header extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -21,10 +22,16 @@ export default class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">I am {resumeData.name}.</h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role}.{resumeData.roleDescription}
-               </h3>
-               <hr/>
+            <div className="pfp">
+
+{/* <img className="profile-pic"  src="images/profilepic.jpg" alt="" /> */}
+            
+
+</div>
+<div class="hello-world" >
+               <div className="responsive-headline" style={{ textShadow: 'None', color:'#2B2B2B', fontFamily:'opensans-regular', fontSize: '50px', margin:'2px' }}> {resumeData.name}</div> 
+               <div className="responsive-headline" style={{ textShadow: 'None', color:'#2B2B2B', fontFamily:'opensans-regular', fontStyle:'Italic'}}> {resumeData.job}</div>
+               
                <ul className="social">
                   {
                     resumeData.socialLinks && resumeData.socialLinks.map(item =>{
@@ -37,6 +44,11 @@ export default class Header extends Component {
                     )
                   }
                </ul>
+               <h3 style={{color:'#2B2B2B', fontFamily:'opensans-light', textShadow: "none"}}>I am a {resumeData.role}.{resumeData.roleDescription}
+</h3>
+</div>
+
+
             </div>
          </div>
 

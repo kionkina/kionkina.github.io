@@ -1,57 +1,65 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
+    "name": "Karina Ionkina",
+    "role": "full stack developer, artist and musician",
+    "job": "SWE @ Bloomberg",
     "linkedinId":"Your LinkedIn Id",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": " In my free time, I like dabbling in the open source world and playing with instruments (and my cat Beaux).",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/karina-ionkina/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"http://github.com/kionkina6",
           "className":"fa fa-github"
         },
         {
           "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
+          "url":"http://twitter.com/carinawithak",
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"I am currently a software engineer at Bloomeberg. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "address":"New York",
+    "website":"https:/kionkina.github.io",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Macaulay Honors College @ Hunter College",
+        "specialization":"B.A in Computer Science and Chinese",
+        "MonthOfPassing":"May",
+        "YearOfPassing":"2021",
+        "Achievements":"Valedicatorian | Deadalus Honors CS | Cooperman Business Fellow | Chinese Flagship Program"
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
+        "UniversityName":"Stuyvesant HS",
+        "specialization":"",
+        "MonthOfPassing":"June",
         "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "Achievements":"GPA: 4.0"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
+        "CompanyName":"Bloomberg L.P.",
+        "specialization":"Full-stack engineer",
+        "MonthOfLeaving":"Aug",
+        "YearOfLeaving":"2021",
+        "Achievements":"Some Achievements"
+      },
+      {
+        "CompanyName":"CUNY",
+        "specialization":"Web Developer",
         "MonthOfLeaving":"Jan",
         "YearOfLeaving":"2018",
         "Achievements":"Some Achievements"
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
+        "CompanyName":"Weill Cornell Medicine",
+        "specialization":"Spacial Computing Intern",
         "MonthOfLeaving":"Jan",
         "YearOfLeaving":"2018",
         "Achievements":"Some Achievements"
@@ -60,10 +68,13 @@ let resumeData = {
     "skillsDescription":"Your skills here",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillname":"TypeScript & JavaScript"
       },
       {
-        "skillname":"CSS"
+        "skillname":"CPP"
+      },
+      {
+        "skillname":"SQL"
       },
       {
         "skillname":"Reactjs"
@@ -73,22 +84,22 @@ let resumeData = {
       {
         "name":"project1",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/portfolio/art1.jpeg"
       },
       {
         "name":"project2",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "imgurl":"images/portfolio/art2.jpeg"
       },
       {
         "name":"project3",
         "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "imgurl":"images/portfolio/art3.jpeg"
       },
       {
         "name":"project4",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/portfolio/art4.jpeg"
       }
     ],
     "testimonials":[
