@@ -7,7 +7,7 @@ export default class About extends Component {
          <div className="row">
 
             <div className="three columns"  style={{top: '-100px'}}>
->
+
 
                <img className="profile-pic"  src="images/profilepic.png" alt="" />
 

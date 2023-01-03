@@ -6,14 +6,14 @@ export default class Porfolio extends Component {
       <section id="portfolio">
       <div className="row">
         <div className="twelve columns collapsed">
-          <h1>Art</h1>
+          <h1>Projects</h1>
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
                 <div className="columns portfolio-item">
-                  <div className="item-wrap">
-                    <a href="#modal-01">
+                  <div style={{color: "black" }}>
+                    <a href= {item.link && item.link} target="_blank">
                       <img src={`${item.imgurl}`} className="item-img"/>
                       <div className="overlay">
                         <div className="portfolio-item-meta">
@@ -23,11 +23,14 @@ export default class Porfolio extends Component {
                       </div>
                     </a>
                   </div>
+                  
                 </div>
               )
             })
           }
+
           </div>
+          And many more! Check out my <a href="https://github.com/kionkina/" > github </a>
         </div>
       </div>
   </section>
