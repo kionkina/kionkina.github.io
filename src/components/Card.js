@@ -12,7 +12,7 @@ const Card = props => (
       </div>
       <div className="right">
         <h3>{props.card.title}</h3>
-  
+        {props.card.descr}
         <div className="separator" />
         <p>{props.card.text} <a href= {props.card.link} target="none"> Read </a> </p>
         

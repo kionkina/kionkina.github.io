@@ -62,23 +62,6 @@
   }
   
 
-  h5 {
-    position: absolute;
-    left: 30px;
-    bottom: -120px;
-    font-size: 6rem;
-    color: #c3c3c3;
-  }
-  
-  h6 {
-    position: absolute;
-    left: 30px;
-    bottom: -55px;
-    font-size: 2rem;
-    color: #c3c3c3;
-  }
-  
-
   
   .fab {
     position: absolute;

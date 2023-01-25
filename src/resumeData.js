@@ -25,7 +25,7 @@ let resumeData = {
         {
           "name":"medium",
           "url":"https://medium.com/@karinaionkina",
-          "className":"fa fa-twitter"
+          "className":"fa fa-pencil"
         }
       ],
     "aboutme":"I graduated Hunter College in 2021 with a degree in computer science and Chinese, and am currently a lead engineer on a team at Bloomberg. I'm interested in building and scaling progressive web apps. In an attempt to combine my interest in music and engineering, I'm currently building a react-native app to help musicians/creatives write music with easy access to tuning, chord-progressions, and lyric-writing tools. ",
