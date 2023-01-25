@@ -18,8 +18,13 @@ let resumeData = {
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
+          "name":"twitter",
           "url":"http://twitter.com/carinawithak",
+          "className":"fa fa-twitter"
+        },
+        {
+          "name":"medium",
+          "url":"https://medium.com/@karinaionkina",
           "className":"fa fa-twitter"
         }
       ],
@@ -153,6 +158,12 @@ let resumeData = {
         "imgurl":"images/portfolio/rpi.png",
         "link": "https://devpost.com/software/relief-insights-p6fh9u"
       },
+    ],
+    "blogs":[
+      {
+      "title": "React Under the Hood",
+      "link": "https://medium.com/@karinaionkina/react-under-the-hood-97e714aba4d3"
+      }
     ],
     "Papers":[
       {
