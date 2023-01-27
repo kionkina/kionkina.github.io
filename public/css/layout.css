@@ -273,6 +273,21 @@ ul#nav li.current a { color: black; }
    text-transform: uppercase;
    letter-spacing: 1px;
 }
+
+
+#blog h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+
+#blog .header-col { padding-top: 9px; }
+#blog .main-col { padding-right: 10%; }
+#blog h1 span {
+   border-bottom: 3px solid #396cb680;
+   padding-bottom: 6px;
+}
+
 #resume h1 span {
    border-bottom: 3px solid #396cb680;
    padding-bottom: 6px;

@@ -53,7 +53,7 @@ let resumeData = {
         "specialization":"Full-stack engineer",
         "MonthOfLeaving":"Aug",
         "YearOfLeaving":"2021 - Present",
-        "Achievements":"Lead engineer on full-stack team. Develops features for a post-trade order management system using TypeScript framework, CPP, and SQL."
+        "Achievements":"Lead engineer on full-stack team. Develops features for a post-trade order management system using TypeScript framework, CPP, and SQL. Builds and maintains internal web app with React and Node.js"
       },
       {
         "CompanyName":"CUNY Research Foundation",

@@ -12,7 +12,21 @@ const cardData = [
       peopleImage:
         "images/profilepic1.JPG",
       link:"https://medium.com/@karinaionkina/react-under-the-hood-97e714aba4d3"
-    }
+    },
+    {
+        id: 2,
+        title: "Async JS Under the Hood",
+        name: "Karina Ionkina",
+        descr: "2023-01-26 4 min read",
+        text:
+          "A dive into async JavaScript: how the JS runtime handles asyncronous calls with the engine, browser runtime, task queue, and JVM. A quick overview for visual and hands-on learners like myself.",
+        month: "January",
+        image:
+          "images/blog2-2.jpg",
+        peopleImage:
+          "images/profilepic1.JPG",
+        link:"https://medium.com/@karinaionkina/async-js-under-the-hood-2e80af6dd4db"
+      }
   ];
   
   export default cardData;
