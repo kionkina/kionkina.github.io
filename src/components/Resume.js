@@ -73,7 +73,9 @@ export default  class Resume extends Component {
                {resumeData.skillsDescription}
                </p>
 
-   				<div className="bars">
+   				<div className="bars" style={{
+    height: "400px", overflow: "scroll"
+}}>
 
    				   <ul className="skills">
                 {

@@ -1,4 +1,4 @@
-const cardData = [
+export const cardData = [
     {
       id: 1,
       title: "React Under the Hood",
