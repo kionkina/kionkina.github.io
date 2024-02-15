@@ -18,11 +18,6 @@ let resumeData = {
         "className":"fa fa-github"
       },
       {
-        "name":"twitter",
-        "url":"http://twitter.com/carinawithak",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"medium",
         "url":"https://medium.com/@karinaionkina",
         "className":"fa fa-pencil"
