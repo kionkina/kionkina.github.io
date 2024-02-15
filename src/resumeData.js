@@ -28,22 +28,29 @@ let resumeData = {
         "className":"fa fa-pencil"
       }
     ],
-  "aboutme":"I graduated Hunter College in 2021 with a degree in computer science and Chinese, and am currently a lead engineer on a team at Bloomberg. I'm currently pursuing a master's degree at UT Austin in machine learning. I'm interested in building and scaling progressive web apps, as well as applying the theoretical aspects of AI in real-world applications. In my free time, I like playing with instruments and my cat (Beaux).",
+  "aboutme":"I graduated Hunter College in 2021 with a degree in computer science and Chinese, and am currently a lead engineer on a team at Bloomberg. I'm currently pursuing a master's degree at UT Austin in machine learning. I'm interested in building and scaling progressive web apps, as well as applying the theoretical aspects of AI in real-world applications.",
   "address":"New York",
   "website":"https:/kionkina.github.io",
   "education":[
     {
+      "UniversityName":"University of Texas at Austin",
+      "specialization":"Masters in Machine Learning",
+      "MonthOfPassing":"",
+      "YearOfPassing":"January 2024 - Present",
+      "Achievements":""
+    },
+    {
       "UniversityName":"Macaulay Honors College @ Hunter College",
       "specialization":"B.A in Computer Science and Chinese",
       "MonthOfPassing":"",
-      "YearOfPassing":"May 2021",
+      "YearOfPassing":"September 2018 - May 2021",
       "Achievements":"Valedicatorian | Deadalus Honors CS | Cooperman Business Fellow | Chinese Flagship Program"
     },
     {
       "UniversityName":"Stuyvesant HS",
       "specialization":"",
-      "MonthOfPassing":"June",
-      "YearOfPassing":"2018",
+      "MonthOfPassing":"",
+      "YearOfPassing":"September 2014 - June 2018",
       "Achievements":"Girls Who Code President | Tennis Team Captain | JV Volleyball Captain | Honors Society"
     }
   ],
