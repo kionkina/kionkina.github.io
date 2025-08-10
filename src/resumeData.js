@@ -5,7 +5,7 @@ let resumeData = {
   "job": "SWE @ Bloomberg",
   "linkedinId":"karina-ionkina",
   "skypeid": "Your skypeid",
-  "roleDescription": " In my free time, I like dabbling in the open source world and playing with instruments (and my cat, Beaux).",
+  "roleDescription": " In my free time, I like dabbling in the open source world and playing with instruments (and my cat, Beaux). Check out my recent talk at <a href='https://gitnation.com/contents/what-we-all-pretend-to-know-the-differences-between-the-js-engine-and-js-runtime' target='_blank'>JSNation</a>!",
   "socialLinks":[
       {
         "name":"linkedin",
@@ -23,7 +23,7 @@ let resumeData = {
         "className":"fa fa-pencil"
       }
     ],
-  "aboutme":"I graduated Hunter College in 2021 with a degree in computer science and Chinese, and am currently a lead engineer on a team at Bloomberg. I'm currently pursuing a master's degree at UT Austin in machine learning. I'm interested in building and scaling progressive web apps, as well as applying the theoretical aspects of AI in real-world applications.",
+  "aboutme":"I graduated Hunter College in 2021 with a degree in computer science and Chinese, and am currently a senior engineer at Bloomberg. I'm currently pursuing a master's degree at UT Austin in machine learning. I'm interested in building and scaling progressive web apps, as well as applying the theoretical aspects of AI in real-world applications.",
   "address":"New York",
   "website":"https:/kionkina.github.io",
   "education":[
