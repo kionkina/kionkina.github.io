@@ -44,7 +44,7 @@ export default class Header extends Component {
                     )
                   }
                </ul>
-               <h3 style={{color:'#2B2B2B', fontFamily:'opensans-light', textShadow: "none"}}>I am a {resumeData.role}.{resumeData.roleDescription}
+               <h3 style={{color:'#2B2B2B', fontFamily:'opensans-light', textShadow: "none"}}>I am a {resumeData.role}.{resumeData.roleDescription} Check out my recent talk at <a href='https://gitnation.com/contents/what-we-all-pretend-to-know-the-differences-between-the-js-engine-and-js-runtime' target='_blank' style={{color:'#587bc9ff'}}> JSNation </a>!
 </h3>
 </div>
 

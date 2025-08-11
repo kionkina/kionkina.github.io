@@ -5,7 +5,7 @@ let resumeData = {
   "job": "SWE @ Bloomberg",
   "linkedinId":"karina-ionkina",
   "skypeid": "Your skypeid",
-  "roleDescription": " In my free time, I like dabbling in the open source world and playing with instruments (and my cat, Beaux). Check out my recent talk at <a href='https://gitnation.com/contents/what-we-all-pretend-to-know-the-differences-between-the-js-engine-and-js-runtime' target='_blank'>JSNation</a>!",
+  "roleDescription": " In my free time, I like dabbling in the open source world and playing with instruments (and my cat, Beaux).",
   "socialLinks":[
       {
         "name":"linkedin",
