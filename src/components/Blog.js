@@ -1,74 +1,92 @@
 import React, { Component } from 'react';
 import "../styles.css";
-import styled from 'styled-components';
 import {cardData as articles} from './cardData';
 
-const BlogTable = styled.table`
-    margin-top: 36px;
-    overflow: scroll;
-    width: 600px;
-`;
-
-const Row = styled.tr`
-  display: contents;
-  width: 150px;
-`;
-
-const TD = styled.td`
-    padding: 10px;
-    width: 150px;
-`;
-
-const H1 = styled.h1`
-  margin-bottom: 0px;
-  width 160px;
-`;
-
-const P = styled.p`
-  width: 180px;
-`;
-
-const IMG = styled.img`
-  height: 160px;
-  max-width: none;
-;
-`;
-
 export default class Blogs extends Component {
+  constructor(props) {
+    super(props);
+    this.state = { currentIndex: 0 };
+  }
+
+  goTo = (index) => {
+    this.setState({ currentIndex: index });
+  };
+
+  goPrev = () => {
+    this.setState((prev) => ({
+      currentIndex: prev.currentIndex === 0 ? articles.length - 1 : prev.currentIndex - 1
+    }));
+  };
+
+  goNext = () => {
+    this.setState((prev) => ({
+      currentIndex: prev.currentIndex === articles.length - 1 ? 0 : prev.currentIndex + 1
+    }));
+  };
+
   render() {
-    // let resumeData = this.props.resumeData;
-    // const cardList = cardData.map(card => <Card key={card.id} card={card} />);
+    const { currentIndex } = this.state;
 
     return (
-      <section  id="blog">
-         <div className="row education">
-        <div className="three columns header-col" >
-          <h1><span>Blog</span></h1> 
-          </div> 
+      <section id="blog">
+        <div className="row education">
+          <div className="three columns header-col">
+            <h1><span>Blog</span></h1>
+          </div>
 
-        <div className="nine columns main-col">
-          <p> Check out my articles on Medium </p>
-        <BlogTable>
-      
-          {articles.map((article, i) => {
-            return (
-              <Row>
-            <TD>
-              <IMG src={article.image}></IMG> <br/>
-          <H1> {article.title} </H1>
-          <P style={{lineHeight: "normal"}}>  {article.descr}  <a href={article.link} target="none">  <i className={"fa fa-long-arrow-right"} /> </a> </P>
-          <p>  {article.text} </p>
-            </TD>
+          <div className="nine columns main-col">
+            <p>Check out my articles on Medium</p>
 
-          </Row>
-            )
-          })}
-          </BlogTable>
-        </div>
-            <h3 style={{padding: "20px"}}> ... and more to come</h3>
+            <div className="carousel">
+              <div className="carousel-track">
+                <div
+                  className="carousel-slider"
+                  style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+                >
+                  {articles.map((article) => (
+                    <div className="carousel-slide" key={article.id}>
+                      <div className="blog-card">
+                        <div className="blog-card__image">
+                          <img src={article.image} alt={article.title} />
+                        </div>
+                        <div className="blog-card__body">
+                          <h3 className="blog-card__title">{article.title}</h3>
+                          <p className="blog-card__date">{article.descr}</p>
+                          <p className="blog-card__text">{article.text}</p>
+                          <a
+                            className="blog-card__link"
+                            href={article.link}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            Read on Medium <i className="fa fa-long-arrow-right" />
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
+
+            <div className="carousel-nav">
+              <button className="carousel-arrow" onClick={this.goPrev}>&#8592;</button>
+              <div className="carousel-progress">
+                {articles.map((_, i) => (
+                  <button
+                    key={i}
+                    className={`carousel-progress__bar ${i === currentIndex ? 'carousel-progress__bar--active' : ''}`}
+                    onClick={() => this.goTo(i)}
+                  />
+                ))}
+              </div>
+              <span className="carousel-counter">{currentIndex + 1} / {articles.length}</span>
+              <button className="carousel-arrow" onClick={this.goNext}>&#8594;</button>
+            </div>
+
+          </div>
+        </div>
       </section>
     );
-    
- }
+  }
 }

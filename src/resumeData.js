@@ -23,7 +23,8 @@ let resumeData = {
         "className":"fa fa-pencil"
       }
     ],
-  "aboutme":"I graduated Hunter College in 2021 with a degree in computer science and Chinese, and am currently a senior engineer at Bloomberg. I'm currently pursuing a master's degree at UT Austin in machine learning. I'm interested in building and scaling progressive web apps, as well as applying the theoretical aspects of AI in real-world applications.",
+  "aboutme":"I graduated from Hunter College in 2021 with a degree in Computer Science and Chinese. I'm currently a Senior Engineer at Bloomberg and pursuing a master's degree in Machine Learning at UT Austin.",
+  "aboutme2":"My interests sit at the intersection of scalable web systems and applied machine learning.",
   "address":"New York",
   "website":"https:/kionkina.github.io",
   "education":[
@@ -51,64 +52,86 @@ let resumeData = {
   ],
   "work":[
     {
-      "CompanyName":"Bloomberg L.P.",
-      "specialization":"Full-stack engineer",
+      "CompanyName":"Bloomberg",
+      "specialization":"Data Visualization Engineer",
       "MonthOfLeaving":"Aug",
       "YearOfLeaving":"2021 - Present",
-      "Achievements":"Lead engineer on full-stack team. Develops features for a post-trade order management system using TypeScript framework, CPP, and SQL. Builds and maintains internal web app with React and Node.js"
+      "Achievements":"Designed and maintained a low-latency, event-driven microservices platform for ingesting live news feeds and powering real-time chart discovery. Builds user-facing web pages using TypeScript and Next.js. Developed full-stack features for an order management system user interface using TypeScript, C++, and SQL."
     },
     {
-      "CompanyName":"CUNY Research Foundation",
-      "specialization":"Web Developer",
-      "MonthOfLeaving":"Jan",
-      "YearOfLeaving":"2018 - Jun 2020",
-      "Achievements":"Buildt and optimized, and hosted responsive Chinese literacy exercises using React, Node. Built the college's Chinese flagsip program website.",
-      "Link": "www.google.com",
+      "CompanyName":"Bloomberg L.P.",
+      "specialization":"Software Engineer Intern",
+      "MonthOfLeaving":"Jun",
+      "YearOfLeaving":"2020 - Aug 2020",
+      "Achievements":"Implemented a persistent reporting system for post-trade allocation workflows, integrating a JavaScript UI, C++ microservices, an ORM-based data layer, and SQL."
     },
     {
       "CompanyName":"Weill Cornell Medicine",
-      "specialization":"Spacial Computing Intern",
-      "MonthOfLeaving":"Jan 2018",
-      "YearOfLeaving":"- Sept 2019",
-      "Achievements":"Worked with a team of professors, clinicians and scientists in the Spatial Computing Lab to improve VR embryo modeling tools by writing C# scripts in Unity."
+      "specialization":"Spatial Computing Intern",
+      "MonthOfLeaving":"Oct",
+      "YearOfLeaving":"2019 - Dec 2019",
+      "Achievements":"Collaborated with professors, clinicians, and scientists to improve VR tooling for in-vitro fertilization, writing C# scripts in Unity to model embryo grading."
     },
     {
-      "CompanyName":"Launch Math & Science Center",
+      "CompanyName":"RFCUNY",
+      "specialization":"Software Developer",
+      "MonthOfLeaving":"Feb",
+      "YearOfLeaving":"2018 - Jun 2021",
+      "Achievements":"Built and optimized responsive Chinese literacy exercises and departmental web pages using React, Node, Express, and PHP."
+    },
+    {
+      "CompanyName":"Launch Math & Science",
       "specialization":"Computer Science Tutor",
-      "MonthOfLeaving":"Sept 20118",
-      "YearOfLeaving":" - Sept 2019",
-      "Achievements":"Taught 3 after-school Python classes at NEST +M and Hunter College Elementary School. Tutored 4 middle and high school students, teaching them computer science and web development fundamentals with pyGame and JavaScript projects."
+      "MonthOfLeaving":"Sept",
+      "YearOfLeaving":"2018 - Sept 2019",
+      "Achievements":"Taught after-school Python classes and tutored 4 middle and high school students in computer science and web development using Python, pyGame, and JavaScript."
     }
   ],
   "skillsDescription":"Technical",
   "skills":[
     {
-      "skillname":"TypeScript / ES6+",
+      "skillname":"JavaScript / TypeScript",
       "id": "ts"
     },
     {
-      "skillname":"Reactjs",
+      "skillname":"Python",
+      "id": "python"
+    },
+    {
+      "skillname":"C++",
+      "id": "cpp"
+    },
+    {
+      "skillname":"ReactJS",
       "id": "react"
     },
     {
-      "skillname":"CPP",
-      "id": "cpp"
+      "skillname":"Next.js",
+      "id": "nextjs"
+    },
+    {
+      "skillname":"Node / Express",
+      "id": "node"
     },
     {
       "skillname":"SQL",
       "id": "sql"
     },
     {
-      "skillname":"React Native (In progress...)",
-      "id": "reactn"
+      "skillname":"MongoDB",
+      "id": "mongo"
     },
     {
-      "skillname":"ios",
-      "id": "ios"
+      "skillname":"PyTorch",
+      "id": "pytorch"
     },
     {
-      "skillname":"中文",
-      "id": "mandarin"
+      "skillname":"Kafka",
+      "id": "kafka"
+    },
+    {
+      "skillname":"RabbitMQ",
+      "id": "rabbitmq"
     }
   ],
   "portfolio":[
@@ -129,12 +152,6 @@ let resumeData = {
       "description":"An meditation social media app where users can post their meditation recordings.",  
       "imgurl":"images/portfolio/meditapp.png",
       "link": "https://github.com/kionkina/meditapp"
-    },
-    {
-      "name":"Kantian Computational Linguistics",
-      "description":"A review of seminal work on linguistics and the structure of language, exploring contemporary solutions, identifying their drawbacks and proposing alternatives to address them.",
-      "imgurl":"images/portfolio/kant.png",
-      "link": "https://dl.acm.org/doi/abs/10.1007/978-3-030-78114-9_17"
     },
     {
       "name":"Stuy Planner",
@@ -167,14 +184,16 @@ let resumeData = {
     "link": "https://medium.com/@karinaionkina/react-under-the-hood-97e714aba4d3"
     }
   ],
-  "Papers":[
+  "publications":[
     {
-      "description":"This is a sample testimonial",
-      "name":"Some technical guy"
+      "title":"Kantian Computational Linguistics",
+      "description":"A review of seminal work on linguistics and the structure of language, exploring solutions and alternatives.",
+      "link":"https://dl.acm.org/doi/abs/10.1007/978-3-030-78114-9_17"
     },
     {
-      "description":"This is a sample testimonial",
-      "name":"Some technical guy"
+      "title":"Configurable Parallel Induction Machines",
+      "description":"Explores machine learning applications of parallel computing and presents an implementation of an MISD machine, consistent with the No Free Lunch Theorem.",
+      "link":"https://www.researchgate.net/publication/352958035_Configurable_Parallel_Induction_Machines"
     }
   ]
 }

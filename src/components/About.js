@@ -17,26 +17,18 @@ export default class About extends Component {
 
                <h2>About Me</h2>
                <p>
-               {
-                 resumeData.aboutme
-               }
+               {resumeData.aboutme}
+               </p>
+               <p>
+               {resumeData.aboutme2}
                </p>
                <div className="row">
 
                   <div className="columns contact-details">
 
-                  <h2>Contact Details</h2>
+                  <h2>Contact</h2>
                   <p className="address">
-       						<span>{resumeData.name}</span>
-                     <br></br>
-       						   <span> <row>
-                               
-                     {resumeData.address}
-               <img src="images/cat3.png" style={{ width:'190px', height:'fit-content', position:"absolute",  translate:'90%'}} alt="" /> 
-                            </row>
-                    </span>
-                    <br></br>
-                    <span>{resumeData.website}</span>
+                    <a href="https://www.linkedin.com/in/karina-ionkina/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
        					   </p>
                   </div>
                </div>
