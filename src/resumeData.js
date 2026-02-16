@@ -53,7 +53,7 @@ let resumeData = {
   "work":[
     {
       "CompanyName":"Bloomberg",
-      "specialization":"Data Visualization Engineer",
+      "specialization":"Senior Software Engineer",
       "MonthOfLeaving":"Aug",
       "YearOfLeaving":"2021 - Present",
       "Achievements":"Designed and maintained a low-latency, event-driven microservices platform for ingesting live news feeds and powering real-time chart discovery. Builds user-facing web pages using TypeScript and Next.js. Developed full-stack features for an order management system user interface using TypeScript, C++, and SQL."
