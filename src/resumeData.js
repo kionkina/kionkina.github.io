@@ -1,11 +1,11 @@
 let resumeData = {
   "imagebaseurl":"https://rbhatia46.github.io/",
   "name": "Karina Ionkina",
-  "role": "full stack developer, artist and musician",
+  "role": "full-stack developer, artist, and musician who likes building things and creating across different mediums.",
   "job": "SWE @ Bloomberg",
   "linkedinId":"karina-ionkina",
   "skypeid": "Your skypeid",
-  "roleDescription": " In my free time, I like dabbling in the open source world and playing with instruments (and my cat, Beaux).",
+  "roleDescription": " In my free time, I play instruments and hang out with my cat, Beaux.",
   "socialLinks":[
       {
         "name":"linkedin",
@@ -23,7 +23,7 @@ let resumeData = {
         "className":"fa fa-pencil"
       }
     ],
-  "aboutme":"I graduated from Hunter College in 2021 with a degree in Computer Science and Chinese. I'm currently a Senior Engineer at Bloomberg and pursuing a master's degree in Machine Learning at UT Austin.",
+  "aboutme":"I graduated from Hunter College in 2021 with a degree in Computer Science and Chinese. I'm currently a Senior Engineer at Bloomberg and am pursuing a master's degree in Machine Learning at UT Austin.",
   "aboutme2":"My interests sit at the intersection of scalable web systems and applied machine learning.",
   "address":"New York",
   "website":"https:/kionkina.github.io",
