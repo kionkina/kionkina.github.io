@@ -1,7 +1,7 @@
 let resumeData = {
   "imagebaseurl":"https://rbhatia46.github.io/",
   "name": "Karina Ionkina",
-  "role": "full-stack developer, artist, and musician who likes building things and creating across different mediums.",
+  "role": "full-stack developer, artist, and musician who likes building things and creating across different mediums",
   "job": "SWE @ Bloomberg",
   "linkedinId":"karina-ionkina",
   "skypeid": "Your skypeid",
@@ -133,50 +133,6 @@ let resumeData = {
       "skillname":"RabbitMQ",
       "id": "rabbitmq"
     }
-  ],
-  "portfolio":[
-    {
-      "name":"NYC Bike Lane and Collision Anaylysis",
-      "description": "Visualizing the extent to which different kinds of lanes corrrelate to bicycle accidents in nyc.",
-      "imgurl":"images/portfolio/lanes.png",
-      "link": "https://nyc-bikes-and-lanes.herokuapp.com/"
-    },
-    {
-      "name":"Robingood",
-      "description":"A MERN paper trading app.",
-      "imgurl":"images/portfolio/robingood.png",
-      "link": "https://github.com/kionkina/robingood"
-    },
-    {
-      "name":"Meditapp",
-      "description":"An meditation social media app where users can post their meditation recordings.",  
-      "imgurl":"images/portfolio/meditapp.png",
-      "link": "https://github.com/kionkina/meditapp"
-    },
-    {
-      "name":"Stuy Planner",
-      "description":"A classroom management app (flask, js, sqlite). Click for demo :)",
-      "imgurl":"images/portfolio/sp.png",
-      "link": "https://www.youtube.com/watch?v=VoErJulmqds&t=6s"
-    },
-    {
-      "name":"YACMA",
-      "description":"Yet ANOTHER classroom management app. This time with React, Node, Google App Engine, & Firestore -- distributed systems project.",
-      "imgurl":"images/portfolio/Y.png",
-      "link": "https://github.com/boubascript/yacma"
-    },
-    {
-      "name":"PenPal",
-      "description":"An ios app that pairs you with users based on languages and allows you to message them for practice.",
-      "imgurl":"images/portfolio/penpal.png",
-      "link": "https://github.com/kionkina/penpal"
-    },
-    {
-      "name":"RPI Hackathon",
-      "description":"A twitter sentiment analyzer for first responders.",
-      "imgurl":"images/portfolio/rpi.png",
-      "link": "https://devpost.com/software/relief-insights-p6fh9u"
-    },
   ],
   "blogs":[
     {
